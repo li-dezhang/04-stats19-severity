@@ -1,0 +1,12 @@
+{
+  "run_id": "final-20261021",
+  "checks": [
+    "raw source SHA-256 unchanged",
+    "all saved confusion counts and metrics independently recomputed",
+    "figure input CSV hashes match current tables",
+    "independent full retraining: predictions, metrics, importance and coefficients exactly equal"
+  ],
+  "status": "PASS",
+  "raw_hash_check": true,
+  "metrics_sha256": "bd13693fe74843794eabc7a1879716817a7ce330f139152f6e346f95e8e9ff86"
+}

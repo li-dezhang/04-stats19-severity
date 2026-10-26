@@ -1,0 +1,56 @@
+ year  raw_rows  eligible_rows  invalid_targets  duplicate_ids  severe  slight  fatal  serious  severe_fraction
+ 2024    100927         100927                0              0   25069   75858   1502    23567         0.248387
+ 2025    101525         101525                0              0   26644   74881   1453    25191         0.262438
+ year                 feature   rows  missing  unknown  invalid  partial_unknown
+ 2024               road_type 100927        0     2568        0                0
+ 2024         junction_detail 100927     7005        2        0                0
+ 2024        first_road_class 100927        0        0        0                0
+ 2024        light_conditions 100927        6        0        0             1679
+ 2024      weather_conditions 100927        0     3145        0                0
+ 2024 road_surface_conditions 100927      704     1670        0                0
+ 2024             day_of_week 100927        0        0        0                0
+ 2024             speed_limit 100927        3        0        0                0
+ 2024                    hour 100927        0        0        0                0
+ 2025               road_type 101525        0     1953        0                0
+ 2025         junction_detail 101525     6701     1427        0                0
+ 2025        first_road_class 101525        6        0        0                0
+ 2025        light_conditions 101525       16        0        0             1588
+ 2025      weather_conditions 101525        0     2385        0                0
+ 2025 road_surface_conditions 101525      634     1342        0                0
+ 2025             day_of_week 101525        0        0        0                0
+ 2025             speed_limit 101525        0        0        0                0
+ 2025                    hour 101525        0        0        0                0
+{
+  "columns_equal": true,
+  "cross_year_id_overlap": 0,
+  "date_day_year_checks": "PASS",
+  "target_mapping": {
+    "1": 1,
+    "2": 1,
+    "3": 0
+  },
+  "feature_sets": {
+    "A": [
+      "speed_limit",
+      "road_type",
+      "junction_detail",
+      "first_road_class"
+    ],
+    "B": [
+      "speed_limit",
+      "road_type",
+      "junction_detail",
+      "first_road_class",
+      "light_conditions",
+      "weather_conditions",
+      "road_surface_conditions",
+      "day_of_week",
+      "hour"
+    ]
+  },
+  "source_specification": "2024_code_list applied to both published years",
+  "dictionary_warning": "Conversion sheet mislabels road-surface-like values as weather; no legacy conversion applied",
+  "split_sha256": "202bc3ea440bc394bfe8a074529e8e75f4df8820c674eb9a0b6f494a608d9dc2",
+  "train_n": 80741,
+  "validation_n": 20186
+}

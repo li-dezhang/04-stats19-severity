@@ -1,0 +1,34 @@
+{
+  "columns_equal": true,
+  "cross_year_id_overlap": 0,
+  "date_day_year_checks": "PASS",
+  "target_mapping": {
+    "1": 1,
+    "2": 1,
+    "3": 0
+  },
+  "feature_sets": {
+    "A": [
+      "speed_limit",
+      "road_type",
+      "junction_detail",
+      "first_road_class"
+    ],
+    "B": [
+      "speed_limit",
+      "road_type",
+      "junction_detail",
+      "first_road_class",
+      "light_conditions",
+      "weather_conditions",
+      "road_surface_conditions",
+      "day_of_week",
+      "hour"
+    ]
+  },
+  "source_specification": "2024_code_list applied to both published years",
+  "dictionary_warning": "Conversion sheet mislabels road-surface-like values as weather; no legacy conversion applied",
+  "split_sha256": "202bc3ea440bc394bfe8a074529e8e75f4df8820c674eb9a0b6f494a608d9dc2",
+  "train_n": 80741,
+  "validation_n": 20186
+}

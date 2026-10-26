@@ -1,0 +1,17 @@
+test_allowlist (test_study.StudyTests.test_allowlist) ... ok
+test_ap_not_trapezoid (test_study.StudyTests.test_ap_not_trapezoid) ... ok
+test_distribution_categories (test_study.StudyTests.test_distribution_categories) ... ok
+test_duplicate (test_study.StudyTests.test_duplicate) ... ok
+test_figure_csv_contract (test_study.StudyTests.test_figure_csv_contract) ... ok
+test_mapping (test_study.StudyTests.test_mapping) ... ok
+test_metrics (test_study.StudyTests.test_metrics) ... ok
+test_missing_categories (test_study.StudyTests.test_missing_categories) ... ok
+test_split_reproducible (test_study.StudyTests.test_split_reproducible) ... ok
+test_threshold_ties (test_study.StudyTests.test_threshold_ties) ... ok
+test_train_only_transform (test_study.StudyTests.test_train_only_transform) ... ok
+test_year (test_study.StudyTests.test_year) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.046s
+
+OK

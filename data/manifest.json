@@ -1,0 +1,27 @@
+{
+  "source_page": "https://www.gov.uk/government/statistical-data-sets/road-safety-open-data",
+  "licence": "Open Government Licence v3.0",
+  "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: Department for Transport, STATS19.",
+  "acquired_utc": "2026-10-21T13:24:01.297012+00:00",
+  "files": [
+    {
+      "path": "data/raw/collisions_2024.csv",
+      "url": "https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-2024.csv",
+      "bytes": 19208488,
+      "sha256": "32a78f4662e309160f37b1ea2b82017e85e07b62a022d680da7140e88706a17c"
+    },
+    {
+      "path": "data/raw/collisions_2025.csv",
+      "url": "https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-2025.csv",
+      "bytes": 19349153,
+      "sha256": "e699c19bdb82e47e449b6f3381ac87631865f6a31cef118c9955ba80ca870e2b"
+    },
+    {
+      "path": "data/raw/data_guide_2025.xlsx",
+      "url": "https://assets.publishing.service.gov.uk/media/6ab2a71d997a4b2950cced58/dft-road-casualty-statistics-road-safety-open-dataset-data-guide-2025.xlsx",
+      "bytes": 85112,
+      "sha256": "51b08606ef3dad1ae5d4c8726241b022fc8e4bbdc910ef0e5cc2fb92b054fc12"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-10-21T13:36:17.758546+00:00",
+  "end_utc": "2026-10-21T13:36:31.825681+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.2",
+  "seed": 20261021,
+  "mode": "final",
+  "source_sha256": {
+    "src/stats19/__init__.py": "fdd4ac234afce9e1cb16ba1ae12f7a339b52bed3abda8ab0826d590807625759",
+    "src/stats19/core.py": "6b6b8c7556e65f3ceec08e1ed042e1aa84ba541b25651e8de017d2f3151602e2",
+    "scripts/run.py": "adafe71daca35ad3f900d0672e899a074cf2c86fa624d74a87fe90788a99ef94",
+    "scripts/plot.py": "9b03119f1c11edbf66dd184ad505b269d1d925efa728b5c72562f5dcbad94577",
+    "scripts/acquire.py": "4b8dedd7b891a12fb29ecdd5b440d8a41952b20814031e72147b934ddd2e6725",
+    "scripts/evaluate.py": "0f6e94f48b101f35ab2a323868c39afd3560b9b85201112e1973e47525a3880f",
+    "scripts/prepare.py": "9899cc7b72c948540baccfe22cf07738780b52bd39344a705bd01ea098ccd096"
+  },
+  "data_manifest_sha256": "f80431e8b08e8da90571e0ec5e86fd268994dc0ad0619c9e14dcda555a778047",
+  "split_sha256": "202bc3ea440bc394bfe8a074529e8e75f4df8820c674eb9a0b6f494a608d9dc2",
+  "test_predictions_order": "sorted collision_index in clean_2025; IDs deliberately omitted from public predictions"
+}
